@@ -1,0 +1,24 @@
+Társállatok előfordulása fajtánkként
+
+A magyar háztartások közel háromnegyedében él háziállat
+
+A kördiagram a magyarországi háztartásokban tartott leggyakoribb házi kedvenceket mutatja be a 2023-as FEDIAF adatok alapján.
+A százalékos értékek azt jelzik, hogy az adott állatkategória mekkora arányt képvisel az összes vizsgált kedvenchez viszonyítva.
+
+Fontos különbség:
+
+Kutyák, macskák, kisemlősök és díszmadarak esetében egyedszámról beszélünk (hány állat él háztartásokban).
+
+Akváriumok és terráriumok esetében háztartások számát mérik (hány otthonban van akvárium/terrárium), így ezek nem az állatok tényleges egyedszámát tükrözik — egy akvárium akár több tucat halat is jelenthet.
+
+A diagram ezért a trendet mutatja (melyik kedvenc mennyire elterjedt), de az akváriumi és terráriumi állatok mennyisége a valóságban magasabb lehet, mint amit az arányuk sugall.
+
+Mit látunk?
+
+A kutyák és macskák messze a leggyakoribb kedvencek Magyarországon.
+
+A kisebb állatok (madarak, kisemlősök, hüllők) kisebb, de stabil hobbiközösségekhez kötődnek.
+
+Az akvarisztika és terrarisztika inkább speciális, de élénk és elkötelezett állattartói kör.
+
+Forrás: FEDIAF EuropeanPetFood (https://europeanpetfood.org/about/statistics/)
