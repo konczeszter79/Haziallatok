@@ -55,3 +55,35 @@ img {
     width: 80%;
     border-radius: 5px;
 }
+.ritkacontent{
+    font-family: "Arial";
+    background-color: rgba(88, 102, 46, 0.8);
+    margin: auto;
+    width: 80%;
+    color: black;
+    padding-left: 10;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.menu-container {
+      background-color: #dbe1c8;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex; 
+      justify-content: space-around; 
+    }
+    .menu li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #064d2c; 
+      padding: 8px 16px;
+      display: block;
+    }
