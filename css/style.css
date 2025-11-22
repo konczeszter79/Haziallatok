@@ -87,3 +87,27 @@ img {
       padding: 8px 16px;
       display: block;
     }
+    .imgbox {
+  width: 45%;             
+  margin: 20px;           
+  padding: 10px;
+  background-color:  #dbe1c8; 
+  border: 2px solid #333;  
+  border-radius: 8px;      
+}
+.imgbox img {
+  width: 450px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.left {
+  float: left;
+  clear: left;
+}
+
+.right {
+  float: right;
+  clear: right;
+}
