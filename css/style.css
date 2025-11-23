@@ -67,4 +67,126 @@ img {
   border-bottom-style: solid;
   border-bottom-color: black;
 }
+.tabla {
+    width: 700px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 2px double black;
+    padding: auto;
+    text-align: center;
+}
 
+.tabla_sorok td {
+    border: 2px double black;
+    padding: auto;
+}
+
+.tabla_fejlec th {
+    border: 2px double black;
+}
+
+.gyakori_body {
+    max-width: 990px;
+    margin:  12px auto;
+    padding: 10px;
+    background-color: rgba(138, 154, 91, 0.846);
+    border-width: 3px;
+    border: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img_gyakori {
+    width: 450px; 
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    float: right
+} 
+
+.gyakori_h1 {
+    text-align: center;
+}
+
+.gyakori_h2 {
+    text-align: center;
+}
+
+.img_statisztika {
+    float: right;
+    width: 500px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.img_felelos {
+    float: left;
+    width: 500px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.felelos_szoveg {
+    margin-left: 40px;
+}
+.bevezeto {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.ritkacontent {
+  font-family: "Arial";
+  background-color: rgba(88, 102, 46, 0.8);
+  margin: auto;
+  width: 80%;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px 5px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.doboz {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.doboz:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.imgbox {
+  width: 430px;
+  background-color: #dbe1c8;
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.imgbox img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.lista {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.szoveg {
+  flex: 1;
+  font-size: 0.9em;
+  font-weight: bold;
+}
