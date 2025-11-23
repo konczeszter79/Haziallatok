@@ -67,3 +67,20 @@ img {
     border-bottom-style: solid;
     border-bottom-color: black;
 }
+
+.imgbox img {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    clear: left;
+}
+
+.right {
+    float: right;
+    clear: right;
+}
