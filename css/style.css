@@ -144,3 +144,23 @@ img {
 .gyakori_h2 {
     text-align: center;
 }
+
+.img_statisztika {
+    float: right;
+    width: 500px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.img_felelos {
+    float: left;
+    width: 500px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.felelos_szoveg {
+    margin-left: 40px;
+}
