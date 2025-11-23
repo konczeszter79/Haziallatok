@@ -98,3 +98,49 @@ img {
     float: right;
     clear: right;
 }
+
+.tabla {
+    width: 700px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 2px double black;
+    padding: auto;
+    text-align: center;
+}
+
+.tabla_sorok td {
+    border: 2px double black;
+    padding: auto;
+}
+
+.tabla_fejlec th {
+    border: 2px double black;
+}
+
+.gyakori_body {
+    max-width: 990px;
+    margin:  12px auto;
+    padding: 10px;
+    background-color: rgba(138, 154, 91, 0.846);
+    border-width: 3px;
+    border: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img_gyakori {
+    width: 450px; 
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    float: right
+} 
+
+.gyakori_h1 {
+    text-align: center;
+}
+
+.gyakori_h2 {
+    text-align: center;
+}
