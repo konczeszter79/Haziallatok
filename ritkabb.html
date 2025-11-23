@@ -5,21 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ritkább állatok</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><b>Háziállatok</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link dropdown-toggle" href="./index.html" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Főoldal
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./index.html#tortenete">A háziállattartás története</a>
+                        <a class="dropdown-item" href="./index.html#miert">Miért tartunk háziállatot?</a>
+                        <a class="dropdown-item" href="./index.html#felelos">Felelős állattartás</a>
+                        <a class="dropdown-item" href="./index.html#stat">Statisztikák</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./gyakori.html">Gyakori háziállatok</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./ritkabb.html">Ritkább háziállatok</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./extrem.html">Extrém háziállatok</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
     <div class="ritkacontent">
         <h1>Ritkább háziállatok</h1>
 
-        <div class="menu-container">
-            <ul class="menu">
-                <li><a href="index.html">Főoldal</a></li>
-                <li><a href="gyakori.html">Gyakori háziállatok</a></li>
-                <li><a href="ritkabb.html">Ritkább állatok</a></li>
-                <li><a href="extrem.html">Extrém állattartás</a></li>
-            </ul>
-        </div>
+    
         <p>
             A következőkben néhány még viszonylag könnyen tartható, de Magyarországon ritkább állatfajt mutatunk be. Van
             közöttük rovar, hüllő és emlős is.
@@ -235,6 +262,9 @@
                 href="https://www.agroinform.hu/hazikert/a-hurkan-es-kolbaszon-tul-is-van-elet-tudd-meg-miert-jo-ha-torpemalacod-van-60211-001">Agroinform</a>
         </p>
     </div>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+</body>
 </body>
 
 </html>
