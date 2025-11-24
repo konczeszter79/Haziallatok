@@ -40,6 +40,7 @@ body {
 
 p {
   padding: 5px 10px;
+  text-align: justify;
 }
 
 .img {
@@ -132,6 +133,9 @@ img {
 .felelos_szoveg {
     margin-left: 40px;
 }
+.ritkafejlec{
+  text-align: center;
+}
 .bevezeto {
   font-size: 1.1em;
   font-weight: bold;
@@ -158,10 +162,6 @@ img {
   margin-bottom: 20px;
 }
 
-.doboz:nth-of-type(even) {
-  flex-direction: row-reverse;
-}
-
 .imgbox {
   width: 430px;
   background-color: #dbe1c8;
@@ -172,21 +172,13 @@ img {
   font-weight: bold;
 }
 
-.imgbox img {
-  width: 400px;
-  height: auto;
-  display: block;
-  margin-bottom: 10px;
-}
-
-
 .lista {
   font-size: 0.8em;
   font-weight: bold;
+  text-align: justify;
 }
 
-.szoveg {
-  flex: 1;
+.szoveg{
   font-size: 0.9em;
   font-weight: bold;
 }
