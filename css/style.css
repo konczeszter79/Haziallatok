@@ -1,73 +1,88 @@
 body {
-  background-image: url("../img/fooldal/haziallatok-csoportkep.jpg");
-  background-attachment: fixed;
-  background-position-x: center;
-  background-position-y: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  font-family: "Arial";
-  color: black;
-  margin-bottom: 20px;
+    background-image: url("../img/fooldal/haziallatok-csoportkep.jpg");
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Arial";
+    color: black;
+    margin-bottom: 20px;
 }
 
 .content {
-  background-color: rgba(138, 154, 91, 0.8);
-  margin: auto;
-  width: 80%;
-  color: black;
-  padding-left: 10;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px 5px;
-  margin-top: 100px;
-  margin-bottom: 40px;
-  padding-bottom: 50px;
+    background-color: rgba(138, 154, 91, 0.8);
+    margin: auto;
+    width: 80%;
+    padding-left: 10;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px 5px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+}
+
+.c_ex {
+    background-color: rgba(83, 92, 54, 0.8);
+    color: rgb(219, 225, 200);
 }
 
 .row {
-  padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .fejlec {
-  padding-top: 10px;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  border-radius: 5px 5px 0 0;
-  background-color: rgb(219, 225, 200);
-  margin-bottom: 40px;
+    padding-top: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(219, 225, 200);
+    margin-bottom: 40px;
+    color: black;
 }
 
+
 p {
-  padding: 5px 10px;
-  text-align: justify;
+    padding: 5px 10px;
+    text-align: justify;
 }
 
 .img {
-  background-color: rgb(219, 225, 200);
-  border-radius: 5px;
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
-  margin-bottom: 5px;
+    background-color: rgb(219, 225, 200);
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 5px;
+}
+
+.img p {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 0.85em;
 }
 
 .d-block {
-  margin-top: 20px;
-  margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 img {
-  width: 80%;
-  border-radius: 5px;
+    width: 80%;
+    border-radius: 5px;
 }
 
 .navbar {
-  background-color: rgb(219, 225, 200);
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
+    background-color: rgb(219, 225, 200);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
+
 .tabla {
     width: 700px;
     margin: 20px auto;
@@ -89,7 +104,7 @@ img {
 
 .gyakori_body {
     max-width: 990px;
-    margin:  12px auto;
+    margin: 12px auto;
     padding: 10px;
     background-color: rgba(138, 154, 91, 0.846);
     border-width: 3px;
@@ -99,12 +114,12 @@ img {
 }
 
 .img_gyakori {
-    width: 450px; 
+    width: 450px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
     float: right
-} 
+}
 
 .gyakori_h1 {
     text-align: center;
@@ -133,52 +148,54 @@ img {
 .felelos_szoveg {
     margin-left: 40px;
 }
-.ritkafejlec{
-  text-align: center;
+
+.ritkafejlec {
+    text-align: center;
 }
+
 .bevezeto {
-  font-size: 1.1em;
-  font-weight: bold;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .ritkacontent {
-  font-family: "Arial";
-  background-color: rgba(88, 102, 46, 0.8);
-  margin: auto;
-  width: 80%;
-  color: black;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px 5px;
-  margin-top: 100px;
-  margin-bottom: 20px;
+    font-family: "Arial";
+    background-color: rgba(88, 102, 46, 0.8);
+    margin: auto;
+    width: 80%;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px 5px;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .doboz {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .imgbox {
-  width: 430px;
-  background-color: #dbe1c8;
-  border: 2px solid #333;
-  padding: 10px;
-  margin: 20px;
-  text-align: left;
-  font-weight: bold;
+    width: 430px;
+    background-color: #dbe1c8;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+    font-weight: bold;
 }
 
 .lista {
-  font-size: 0.8em;
-  font-weight: bold;
-  text-align: justify;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: justify;
 }
 
-.szoveg{
-  font-size: 0.9em;
-  font-weight: bold;
+.szoveg {
+    font-size: 0.9em;
+    font-weight: bold;
 }
