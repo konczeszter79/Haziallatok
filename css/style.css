@@ -120,7 +120,7 @@ img {
 
 .gyakori_body {
     max-width: 990px;
-    margin:  12px auto;
+    margin:  100px auto 20px;
     padding: 10px;
     background-color: rgba(138, 154, 91, 0.846);
     border-width: 3px;
@@ -139,6 +139,8 @@ img {
 
 .gyakori_h1 {
     text-align: center;
+    background-color: rgb(219, 225, 200);
+
 }
 
 .gyakori_h2 {
