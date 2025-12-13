@@ -17,38 +17,36 @@
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Főoldal</a>
+                </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./gyakori.html" id="navbarDropdownMenuLink"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Gyakori háziállatok
-                    </a>
+                    <a class="nav-link dropdown-toggle" href="./gyakori.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gyakori háziállatok</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="./index.html#tortenete">Kutya</a>
-                        <a class="dropdown-item" href="./index.html#miert">Macska</a>
-                        <a class="dropdown-item" href="./index.html#felelos">Papagáj</a>
-                        <a class="dropdown-item" href="./index.html#stat">Hörcsög</a>
+                        <a class="dropdown-item" href="./gyakori.html#Kutya">Kutya</a>
+                        <a class="dropdown-item" href="./gyakori.html#Macska">Macska</a>
+                        <a class="dropdown-item" href="./gyakori.html#Papagáj">Papagáj</a>
+                        <a class="dropdown-item" href="./gyakori.html#Hörcsög">Hörcsög</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./gyakori.html">Gyakori háziállatok</a>
+                    <a class="nav-link" href="./ritkabb.html">Ritkább háziállatok</a>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./ritkabb.html">Ritkább háziállatok</a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link" href="./extrem.html">Extrém háziállatok</a>
                 </li>
-
             </ul>
         </div>
     </nav>
-    
+
     <div class="gyakori_body">
         <h1 class="gyakori_h1">Leggyakoribb házi kedvencek</h1>
 
-        <h2 class="gyakori_h2">Kutya</h2>
+        <h2 id="Kutya" class="gyakori_h2">Kutya</h2>
         <img class="img_gyakori" src="img/gyakori/kutyák (1).jpg" alt="Kutyák" title="Kutyák">
 
         <p>A kutya az egyik legősibb háziállat, az ember hű társa már több ezer éve. Számos fajta létezik, amelyek
@@ -71,7 +69,7 @@
 
         <p>Átlagos élettartam: 10–15 év (fajtától függően)</p>
 
-        <h2 class="gyakori_h2">Macska</h2>
+        <h2 id="Macska" class="gyakori_h2">Macska</h2>
         <img class="img_gyakori" src="img/gyakori/macskák.jpg" alt="Macskák" title="Macskák">
 
         <p>A macskák függetlenebb természetű állatok, de erősen tudnak kötődni gazdájukhoz. Kiváló vadászösztönnel
@@ -92,7 +90,7 @@
 
         <p>Átlagos élettartam: 12–18 év (lakásban akár több)</p>
 
-        <h2 class="gyakori_h2">Papagáj</h2>
+        <h2 id="Papagáj" class="gyakori_h2">Papagáj</h2>
         <img class="img_gyakori" src="img/gyakori/Papagáj.jpg" alt="Papagájok" title="Papagájok">
 
         <p>A papagájok intelligens, társas madarak, sok fajnál hosszú élettartammal. Kedvelik a kommunikációt, gyakran
@@ -112,7 +110,7 @@
 
         <p>Átlagos élettartam: fajonként változó (pl. hullámos papagáj 8–14 év, nagytestű akár 40+ év)</p>
 
-        <h2 class="gyakori_h2">Hörcsög</h2>
+        <h2 id="Hörcsög" class="gyakori_h2">Hörcsög</h2>
         <img class="img_gyakori" src="img/gyakori/Hörcsög.jpg" alt="Hörcsögök" title="Hörcsögök">
 
         <p>A hörcsög kisméretű, éjszakai életmódot folytató rágcsáló. Általában magányosan szeret élni, ezért egyedül
